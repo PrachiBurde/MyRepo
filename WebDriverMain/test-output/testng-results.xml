@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="89746" started-at="2023-01-17T08:25:17Z" finished-at="2023-01-17T08:26:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="89746" started-at="2023-01-17T08:25:17Z" finished-at="2023-01-17T08:26:47Z">
+      <class name="SeleniumGrid.RSATest$googleTest">
+        <test-method status="PASS" signature="HomePageCheck()[pri:0, instance:SeleniumGrid.RSATest$googleTest@6d7b4f4c]" name="HomePageCheck" duration-ms="89662" started-at="2023-01-17T08:25:17Z" finished-at="2023-01-17T08:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageCheck -->
+      </class> <!-- SeleniumGrid.RSATest$googleTest -->
+      <class name="SeleniumGrid.googleTest">
+        <test-method status="PASS" signature="HomePageCheck()[pri:0, instance:SeleniumGrid.googleTest@527740a2]" name="HomePageCheck" duration-ms="54731" started-at="2023-01-17T08:25:17Z" finished-at="2023-01-17T08:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageCheck -->
+      </class> <!-- SeleniumGrid.googleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

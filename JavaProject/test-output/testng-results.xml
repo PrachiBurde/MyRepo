@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="3" total="11" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FunctionalTestSuite" duration-ms="206" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="PaymentReturns.paymentreturnbybank()[pri:0, instance:TestNGTutorial.PaymentReturns@4fe3c938]" name="paymentreturnbybank" class="TestNGTutorial.PaymentReturns"/>
+        <method signature="PaymentTest.paymentinrupee()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="paymentinrupee" class="TestNGTutorial.PaymentTest"/>
+        <method signature="SignupTest.signupByemail()[pri:0, instance:TestNGTutorial.SignupTest@3701eaf6]" name="signupByemail" class="TestNGTutorial.SignupTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="PaymentTest" duration-ms="162" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+      <class name="TestNGTutorial.PaymentTest">
+        <test-method status="PASS" signature="bfClass()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="bfClass" is-config="true" duration-ms="1" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfClass -->
+        <test-method status="PASS" signature="bfMethod()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="bfMethod" is-config="true" duration-ms="1" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method status="PASS" signature="paymentindoller(java.lang.String, java.lang.String)[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="paymentindoller" duration-ms="23" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentindoller -->
+        <test-method status="PASS" signature="afMethod()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="afMethod" is-config="true" duration-ms="1" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method status="PASS" signature="bfMethod()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="bfMethod" is-config="true" duration-ms="0" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method status="PASS" signature="paymentinrupee()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="paymentinrupee" duration-ms="2" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinrupee -->
+        <test-method status="PASS" signature="afClass()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="afClass" is-config="true" duration-ms="1" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afClass -->
+        <test-method status="PASS" signature="afMethod()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="afMethod" is-config="true" duration-ms="0" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method status="PASS" signature="lastExecution()[pri:0, instance:TestNGTutorial.PaymentTest@5b87ed94]" name="lastExecution" is-config="true" duration-ms="1" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- TestNGTutorial.PaymentTest -->
+    </test> <!-- PaymentTest -->
+    <test name="FunctionalTest" duration-ms="206" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+      <class name="TestNGTutorial.PaymentReturns">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:TestNGTutorial.PaymentReturns@4fe3c938]" name="prerequiste" is-config="true" duration-ms="3" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="FAIL" signature="paymentreturnbybank()[pri:0, instance:TestNGTutorial.PaymentReturns@4fe3c938]" name="paymentreturnbybank" duration-ms="6" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at TestNGTutorial.PaymentReturns.paymentreturnbybank(PaymentReturns.java:13)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentreturnbybank -->
+      </class> <!-- TestNGTutorial.PaymentReturns -->
+      <class name="TestNGTutorial.LoginTest">
+        <test-method status="PASS" signature="loginByemail(java.lang.String, java.lang.String)[pri:0, instance:TestNGTutorial.LoginTest@5383967b]" name="loginByemail" duration-ms="41" started-at="2022-12-22T15:01:44Z" data-provider="getData" finished-at="2022-12-22T15:01:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByemail -->
+        <test-method status="PASS" signature="loginByemail(java.lang.String, java.lang.String)[pri:0, instance:TestNGTutorial.LoginTest@5383967b]" name="loginByemail" duration-ms="3" started-at="2022-12-22T15:01:44Z" data-provider="getData" finished-at="2022-12-22T15:01:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusrname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByemail -->
+        <test-method status="PASS" signature="loginByemail(java.lang.String, java.lang.String)[pri:0, instance:TestNGTutorial.LoginTest@5383967b]" name="loginByemail" duration-ms="3" started-at="2022-12-22T15:01:44Z" data-provider="getData" finished-at="2022-12-22T15:01:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByemail -->
+      </class> <!-- TestNGTutorial.LoginTest -->
+    </test> <!-- FunctionalTest -->
+    <test name="SignoffTest" duration-ms="161" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+      <class name="TestNGTutorial.SignupTest">
+        <test-method status="PASS" signature="bfSuite()[pri:0, instance:TestNGTutorial.SignupTest@3701eaf6]" name="bfSuite" is-config="true" duration-ms="85" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+        <test-method status="PASS" signature="signupByemail()[pri:0, instance:TestNGTutorial.SignupTest@3701eaf6]" name="signupByemail" duration-ms="45" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupByemail -->
+        <test-method status="PASS" signature="signupBytwitter()[pri:0, instance:TestNGTutorial.SignupTest@3701eaf6]" name="signupBytwitter" duration-ms="8" started-at="2022-12-22T15:01:44Z" finished-at="2022-12-22T15:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupBytwitter -->
+      </class> <!-- TestNGTutorial.SignupTest -->
+      <class name="TestNGTutorial.LoginTest">
+        <test-method status="PASS" signature="afSuit()[pri:0, instance:TestNGTutorial.LoginTest@5383967b]" name="afSuit" is-config="true" duration-ms="1" started-at="2022-12-22T15:01:45Z" finished-at="2022-12-22T15:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuit -->
+      </class> <!-- TestNGTutorial.LoginTest -->
+    </test> <!-- SignoffTest -->
+  </suite> <!-- FunctionalTestSuite -->
+</testng-results>

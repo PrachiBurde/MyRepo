@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [FunctionalTestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="TestNGTutorial.Listeners"/>
+  </listeners>
+  <test thread-count="6" name="FunctionalTest(failed)" parallel="tests">
+    <classes>
+      <class name="TestNGTutorial.PaymentReturns">
+        <methods>
+          <include name="prerequiste"/>
+          <include name="paymentreturnbybank"/>
+        </methods>
+      </class> <!-- TestNGTutorial.PaymentReturns -->
+    </classes>
+  </test> <!-- FunctionalTest(failed) -->
+</suite> <!-- Failed suite [FunctionalTestSuite] -->

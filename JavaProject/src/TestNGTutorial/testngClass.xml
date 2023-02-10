@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FunctionalTestSuite"  parallel="tests" thread-count="6">
+	<listeners>
+		<listener class-name="TestNGTutorial.Listeners" />
+	</listeners>
+	<test name="FunctionalTest">
+		<classes>
+			<class name="TestNGTutorial.LoginTest">
+				<methods>
+					<include name="loginByemail" />
+				</methods>
+			</class>
+			<class name="TestNGTutorial.PaymentReturns" />
+		</classes>
+	</test>
+	<test name="PaymentTest">
+		<parameter name="URL" value="qaclickacademy.com" />
+		<parameter name="APIKey/username" value="123456789" />
+		<classes>
+			<class name="TestNGTutorial.PaymentTest" />
+		</classes>
+	</test>
+	<test name="SignoffTest">
+		<classes>
+			<class name="TestNGTutorial.SignupTest">
+				<methods>
+					<exclude name="signupByf.*" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
